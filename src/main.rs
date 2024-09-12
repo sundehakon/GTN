@@ -12,7 +12,6 @@ fn main() {
 
     println!("Welcome to the number guessing game!");
     println!("I have generated a random number between 0 and 9.");
-    println!("Try to guess the number!");
     println!("Hint: The number is a multiple of {}", hint);
     
     let mut input = String::new();
